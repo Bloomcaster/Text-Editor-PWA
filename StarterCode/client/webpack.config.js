@@ -19,7 +19,8 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: './index.html',
+        template: './index.html', 
+        title: 'J.A.T.E'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -48,6 +49,10 @@ module.exports = () => {
 
     module: {
       rules: [
+        {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader']
+        },
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
