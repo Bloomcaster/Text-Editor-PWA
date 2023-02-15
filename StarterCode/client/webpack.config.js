@@ -31,9 +31,9 @@ module.exports = () => {
         inject: true,
         name: "Just Another Text Editor",
         short_name: "JATE",
-        description: " Progressive Web app that is a text editor",
-        background_color: '#225ca3',
-        theme_color: '#225ca3',
+        description: " A installable text editor that is a progessive web app",
+        background_color: '#303F9F',
+        theme_color: '#FFCCBC',
         start_url: './',
         publicPath: './',
         icons: [
@@ -56,7 +56,7 @@ module.exports = () => {
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
-          // use babel-loader in order to use ES6
+          
           use: {
             loader: 'babel-loader',
             options: {
