@@ -36,7 +36,7 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": " Progressive Web app that is a text editor",
-  "background_color": "#225ca3",
-  "theme_color": "#225ca3"
+  "description": " A installable text editor that is a progessive web app",
+  "background_color": "#303F9F",
+  "theme_color": "#FFCCBC"
 }
